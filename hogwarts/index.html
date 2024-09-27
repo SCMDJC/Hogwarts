@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+<main>
+    <div class= "passo ativo" id="passo-0">
+        <img src = "passo 0.webp" alt = >
+        <p>
+        Você nasceu de dois bruxos que foram brutalmente assassinados, e agora você vaga pelo mundo esperando algum evento significante. Até que chega uma carta pra você
+       </p>
+       <button class="btn-proximo" data-proximo = "1">
+       Abrir a carta.
+       </button>
+       <button class="btn-proximo" data-proximo = "2">
+         Ignorar a carta.
+       </button>
+    </div>
+    
+    <div class= "passo" id="passo-1">
+        <p>
+         Você abriu a carta e descobre que foi aceito em Hogwarts, uma escola de magia.
+        </p>
+         <button class="btn-proximo" data-proximo = "3">
+        Decidir ir para Hogwarts.
+         </button>
+         <button class="btn-proximo" data-proximo = "4">
+             Decidir não ir para Hogwarts.
+             </button>
+     </div>
+     <div class= "passo" id="passo-2">
+        <p>
+         Você ignora a carta e continua vivendo sua vida sem saber sobre seu passado mágico.
+        </p>
+         <button class="btn-proximo" data-proximo = "5">
+         Curiosidade toma conta e você procura informações sobre a carta.
+         </button>
+         <button class="btn-proximo" data-proximo = "6">
+             Você rejeita qualquer coisa relacionada à magia e tenta viver uma vida normal.
+
+             </button>
+     </div>     
+     <div class= "passo" id="passo-3">
+        <p>
+         Você decide ir para Hogwarts e embarca no Expresso de Hogwarts.
+        </p>
+         <button class="btn-proximo" data-proximo = "7">
+         Fazer amigos no trem (como Ron e Hermione).
+         </button>
+         <button class="btn-proximo" data-proximo = "8">
+             Preferir ficar sozinho no trem.
+
+             </button>
+     </div>         
+     <div class= "passo" id="passo-4">
+        <p>
+         Você decide não ir para Hogwarts e começa a viver uma vida normal, mas sente algo estranho em relação ao mundo ao seu redor.
+        </p>
+         <button class="btn-proximo" data-proximo = "9">
+         Investigar mais sobre seus pais e sua origem.
+         </button>
+         <button class="btn-proximo" data-proximo = "10">
+             Aceitar o destino de uma vida comum.
+
+             </button>
+     </div>        
+     <div class= "passo" id="passo-5">
+        <p>
+         Você decide procurar informações sobre a carta e descobre que é de uma escola de magia.
+        </p>
+         <button class="btn-proximo" data-proximo = "11">
+         Entrar em contato com a escola.
+         </button>
+         <button class="btn-proximo" data-proximo = "12">
+             Desistir da busca.
+
+             </button> 
+     </div>     
+     <div class= "passo" id="passo-6">
+        <p>
+         Você rejeita qualquer coisa relacionada à magia e tenta viver uma vida normal.
+
+        </p>
+         <button class="btn-proximo" data-proximo = "13">
+         Eventualmente, magia começa a se manifestar sem seu controle.
+         </button>
+         <button class="btn-proximo" data-proximo = "14">
+             Você vive uma vida sem grandes eventos, mas com uma sensação de vazio.
+
+             </button> 
+     </div>        
+     <div class= "passo" id="passo-7">
+        <p>
+         Você faz amigos no trem e chega a Hogwarts, onde é selecionado para uma das casas.
+
+
+        </p>
+         <button class="btn-proximo" data-proximo = "15">
+         Você é selecionado para a Grifinória.
+         </button>
+         <button class="btn-proximo" data-proximo = "16">
+             Você é selecionado para a Sonserina.
+
+             </button> 
+     </div>                
+    <div class= "passo" id="passo-8">
+       <p>
+         Você prefere ficar sozinho no trem, mas algo estranho acontece e você ouve um boato sobre um bruxo sombrio.
+
+         </p>
+         <button class="btn-proximo" data-proximo = "17">
+         Ignorar o boato
+         </button>
+         <button class="btn-proximo" data-proximo = "18">
+             Investigar o boato.
+
+            </button> 
+    </div>   
+    <div class= "passo" id="passo-9">
+        <p>
+         Você começa a investigar a história dos seus pais e descobre que eles eram bruxos famosos.
+
+         </p>
+         <button class="btn-proximo" data-proximo = "19">
+         Aceitar seu destino como bruxo.
+         </button>
+         <button class="btn-proximo" data-proximo = "20">
+             Fugir desse destino.
+ 
+             </button> 
+     </div>  
+     <div class= "passo" id="passo-10">
+        <p>
+         Você aceita viver uma vida comum, mas descobre, de repente, que possui habilidades mágicas incontroláveis.
+         </p>
+         <button class="btn-proximo" data-proximo = "21">
+         Tentar controlar a magia sozinho.
+         </button>
+         <button class="btn-proximo" data-proximo = "22">
+             Procurar ajuda em Hogwarts.
+ 
+             </button> 
+     </div>       
+     <div class= "passo" id="passo-11">
+        <p>
+         Entrar em contato com a escola.
+         </p>
+         <button class="btn-proximo" data-proximo = "23">
+         Você recebe uma resposta positiva e é convidado a visitar a escola.
+         </button>
+         <button class="btn-proximo" data-proximo = "24">
+             Você recebe uma resposta negativa, mas isso apenas aumenta sua determinação de descobrir mais.
+ 
+             </button> 
+     </div>          
+     <div class= "passo" id="passo-12">
+        <p>
+         Você desiste de buscar mais informações sobre a carta e tenta viver uma vida comum.
+         </p>
+         <button class="btn-proximo" data-proximo = "25">
+         No entanto, a magia começa a se manifestar de forma inesperada em sua vida.
+         </button>
+         <button class="btn-proximo" data-proximo = "26">
+             Você segue em frente, tentando ignorar os sinais mágicos, mas uma figura misteriosa entra em contato com você.
+ 
+             </button> 
+     </div>    
+     <div class= "passo" id="passo-13">
+        <p>
+         A magia começa a se manifestar sem seu controle, forçando você a enfrentar sua natureza mágica.
+         </p>
+         <button class="btn-proximo" data-proximo = "27">
+         Procurar ajuda em Hogwarts para entender e controlar sua magia.
+         </button>
+         <button class="btn-proximo" data-proximo = "28">
+             Tentar suprimir a magia sozinho, sem ajuda.
+ 
+             </button> 
+     </div>          
+     <div class= "passo" id="passo-14">
+        <p>
+         Você vive uma vida sem grandes eventos, mas com uma sensação de vazio que vai aumentando ao longo do tempo.
+         </p>
+         <button class="btn-proximo" data-proximo = "29">
+         Você decide finalmente investigar a origem dessa sensação de vazio.
+         </button>
+         <button class="btn-proximo" data-proximo = "30">
+             Você continua a ignorar a sensação de vazio e segue com sua vida rotineira.
+ 
+             </button> 
+     </div>                
+     <div class= "passo" id="passo-15">
+        <p>
+         Você foi selecionado para a Grifinória e começa a fazer amigos que o ajudarão em futuras aventuras.
+         </p>
+         <button class="btn-proximo" data-proximo = "31">
+             Aventura e o desejo de fazer o que é certo.
+         </button>
+         <button class="btn-proximo" data-proximo = "32">
+             Sucesso e poder pessoal.
+ 
+             </button> 
+     </div>  
+     <div class= "passo" id="passo-16">
+        <p>
+         Você foi selecionado para a Sonserina e sente que algo sombrio o rodeia.
+         </p>
+         <button class="btn-proximo" data-proximo = "33">
+             Aventura e o desejo de fazer o que é certo.
+         </button>
+         <button class="btn-proximo" data-proximo = "34">
+             Sucesso e poder pessoal.
+ 
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-17">
+        <p>
+         Você decide ignorar o boato.
+         </p>
+         <button class="btn-proximo" data-proximo = "35">
+             Você chega a Hogwarts sem se envolver em conflitos, mas sente que algo está prestes a acontecer.
+         </button>
+         <button class="btn-proximo" data-proximo = "36">
+             Ignorar o boato leva a uma sensação de desconexão, e você se pergunta se deveria ter investigado.
+ 
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-18">
+        <p>
+         Você decide investigar o boato sobre o bruxo sombrio.
+         </p>
+         <button class="btn-proximo" data-proximo = "37">
+             Você descobre que o bruxo sombrio está em busca de um artefato poderoso.
+         </button>
+         <button class="btn-proximo" data-proximo = "38">
+             Você se depara com pessoas que têm informações sobre o bruxo, mas elas não confiam em você.
+ 
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-19">
+        <p>
+         Você se junta a um grupo de resistência contra as forças das trevas, seguindo os passos de seus pais.
+         </p>
+     </div>  
+     <div class= "passo" id="passo-20">
+        <p>
+         Você se afasta do mundo mágico, mas nunca consegue escapar completamente, sentindo a perda da conexão.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-21">
+        <p>
+         Suas tentativas falham, levando a consequências desastrosas que atraem a atenção indesejada de bruxos das trevas.
+         </p>
+     </div>    
+     <div class= "passo" id="passo-22">
+        <p>
+         Você é acolhido e ensinado a controlar suas habilidades, tornando-se um bruxo respeitado na escola.
+         </p>
+     </div>  
+     <div class= "passo" id="passo-23">
+        <p>
+         Ao chegar à escola, você se destaca e rapidamente se torna um aluno promissor, sendo reconhecido por suas habilidades mágicas.
+         </p>
+     </div>  
+     <div class= "passo" id="passo-24">
+        <p>
+         Sua determinação leva você a descobrir um segredo sobre seus pais e a se tornar um defensor da magia, eventualmente se juntando a uma ordem de bruxos.
+         </p>
+     </div>   
+     <div class= "passo" id="passo-25">
+        <p>
+         
+         </p>
+         <button class="btn-proximo" data-proximo = "39">
+             Você decide explorar essas manifestações mágicas.
+         </button>
+         <button class="btn-proximo" data-proximo = "40">
+             Você tenta reprimir a magia, temendo suas consequências.
+ 
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-26">
+        <p>
+         Uma figura misteriosa entra em contato com você.
+         </p>
+         <button class="btn-proximo" data-proximo = "41">
+             A figura revela ser um bruxo que conhece sua história e o convida a explorar seu potencial mágico.
+         </button>
+         <button class="btn-proximo" data-proximo = "42">
+             A figura é uma ameaça, e você precisa decidir se vai lutar contra ela ou buscar ajuda.
+ 
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-27">
+        <p>
+         Você procura ajuda em Hogwarts para entender e controlar sua magia.
+         </p>
+         <button class="btn-proximo" data-proximo = "43">
+             Aceitar seu destino como bruxo e começar seu treinamento
+         </button>
+         <button class="btn-proximo" data-proximo = "44">
+             Resistir ao processo, mesmo enquanto a magia continua a surgir incontrolavelmente.
+
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-28">
+        <p>
+         Você tenta suprimir a magia sozinho, sem ajuda.
+         </p>
+         <button class="btn-proximo" data-proximo = "45">
+             Seus esforços para controlar a magia falham, e você se encontra em perigo crescente.
+         </button>
+         <button class="btn-proximo" data-proximo = "46">
+             Você consegue esconder sua magia, mas vive com medo constante de ser descoberto.
+
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-29">
+        <p>
+         Você decide investigar a origem dessa sensação de vazio.
+         </p>
+         <button class="btn-proximo" data-proximo = "47">
+         Ao investigar, você descobre indícios do seu passado mágico.
+         </button>
+         <button class="btn-proximo" data-proximo = "48">
+             Você não consegue encontrar respostas satisfatórias e mergulha em uma crise existencial.
+
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-30">
+        <p>
+         Você continua a ignorar a sensação de vazio e segue com sua vida rotineira.
+         </p>
+         <button class="btn-proximo" data-proximo = "49">
+         A sensação de vazio se transforma em desespero, afetando sua saúde mental e emocional.
+         </button>
+         <button class="btn-proximo" data-proximo = "50">
+             Você se conforma com sua vida comum, mas nunca encontra verdadeira felicidade.
+
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-31">
+        <p>
+         Você se torna um dos principais líderes em Hogwarts, derrotando um grande vilão e inspirando os outros com sua coragem.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-32">
+        <p>
+         Você busca poder e liderança sobre os outros, tornando-se uma figura influente, mas enfrentando o risco de cair no lado sombrio.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-33">
+        <p>
+         Você desafia os estereótipos da casa, lutando contra as influências sombrias e se tornando um herói improvável.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-34">
+        <p>
+         Você ascende ao poder em Sonserina, tornando-se uma figura influente no mundo mágico, mas lidando com a tentação do lado sombrio.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-35">
+        <p>
+         Você se junta a um grupo de estudantes que compartilham suas preocupações e começam a investigar juntos.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-36">
+        <p>
+         Você acaba se isolando, sentindo-se perdido entre os bruxos, até que um evento mágico inesperado o faça reconsiderar sua decisão.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-37">
+        <p>
+         Você se une a outros estudantes para impedir que ele encontre o artefato, tornando-se um herói.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-38">
+        <p>
+         Você tenta convencê-las de sua sinceridade, mas isso resulta em um confronto inesperado que coloca sua segurança em risco
+         </p>
+     </div> 
+     <div class= "passo" id="passo-39">
+        <p>
+         Você descobre que possui um talento especial para a magia e começa a treinar suas habilidades, mas sua magia é instável e atrai a atenção de seres mágicos que querem controlar seu poder.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-40">
+        <p>
+         A repressão leva a uma explosão de magia, criando caos ao seu redor. A explosão atrai a atenção de bruxos das trevas que querem explorar suas habilidades.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-41">
+        <p>
+         Você procura ajuda em Hogwarts para entender e controlar sua magia.
+         </p>
+         <button class="btn-proximo" data-proximo = "51">
+             Você decide seguir a figura e aprender mais sobre o mundo mágico.
+         </button>
+         <button class="btn-proximo" data-proximo = "52">
+             Você rejeita a oferta, mas continua sendo perseguido
+
+             </button> 
+     </div> 
+     <div class= "passo" id="passo-42">
+        <p>
+         A figura é uma ameaça, e você precisa decidir se vai lutar contra ela ou buscar ajuda.
+         </p>
+         <button class="btn-proximo" data-proximo = "53">
+             Você decide lutar, revelando habilidades que você nem sabia que tinha, e a figura é forçada a recuar.
+         </button>
+         <button class="btn-proximo" data-proximo = "54">
+             Você opta por buscar ajuda, reunindo aliados que podem ajudá-lo a lidar com a figura, e descobrindo mais sobre o mundo mágico.
+
+             </button> 
+     </div>
+     <div class= "passo" id="passo-43">
+        <p>
+         Você procura ajuda em Hogwarts para entender e controlar sua magia.
+         </p>
+         <button class="btn-proximo" data-proximo = "55">
+             Aceitar seu destino como bruxo e começar seu treinamento.
+         </button>
+         <button class="btn-proximo" data-proximo = "56">
+             Tentar controlar a magia sozinho
+             </button> 
+     </div>
+
+     <div class= "passo" id="passo-44">
+        <p>
+         Embora tente resistir ao treinamento e ao controle de sua magia, as manifestações tornam-se cada vez mais intensas. Sua recusa em aceitar o treinamento faz com que você entre em conflitos constantes com seus professores e colegas. Eventualmente, você é forçado a tomar uma decisão crítica: aceitar que precisa de ajuda ou enfrentar as consequências de sua magia incontrolável, que começa a ameaçar aqueles que você ama. Um evento catastrófico força sua mudança de perspectiva, e você decide finalmente abraçar seu poder e seguir seu destino.
+         </p>
+     </div>
+     <div class= "passo" id="passo-45">
+        <p>
+         O perigo crescente faz com que você atraia a atenção de figuras sombrias do mundo mágico, que tentam se aproveitar da sua situação. Você é capturado e levado para um grupo secreto que deseja usar seus poderes descontrolados para seus próprios fins. No entanto, no último momento, você consegue escapar, mas agora precisa ficar um passo à frente daqueles que o caçam.
+         </p>
+     </div> 
+     <div class= "passo" id="passo-46">
+        <p>
+         Você vive uma vida reclusa, tentando evitar qualquer coisa que possa revelar suas habilidades. No entanto, o medo constante de ser descoberto acaba isolando você de todos ao seu redor. Em um ponto crucial, uma pessoa inesperada de seu passado descobre seu segredo, oferecendo a você uma escolha: continuar vivendo no medo ou aceitar sua verdadeira natureza e aprender a lidar com ela.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-47">
+        <p>
+         Ao investigar profundamente, você encontra pistas sobre sua linhagem mágica e o fato de que seus pais eram bruxos poderosos. Com esse conhecimento, você decide retomar o legado que lhe foi deixado, indo atrás de treinamento em magia. Esse retorno ao mundo mágico lhe traz uma nova sensação de propósito e aventura, e você finalmente encontra a paz interior ao abraçar seu verdadeiro eu.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-48">
+        <p>
+         A crise existencial o leva a questionar seu lugar no mundo. No entanto, em um momento de desespero, você começa a manifestar poderes mágicos incontroláveis, o que o força a procurar ajuda de outras pessoas com habilidades semelhantes. Essa busca de compreensão sobre si mesmo acaba levando você de volta ao mundo mágico, onde finalmente encontra respostas para seu vazio interior.        
+         </p>
+     </div> 
+    <div class= "passo" id="passo-49">
+        <p>
+         O desespero toma conta de você e sua vida se torna cada vez mais difícil de controlar. No entanto, em um momento de fraqueza, a magia que você tentou ignorar se manifesta de maneira explosiva, revelando seu verdadeiro potencial. Esse evento faz com que você procure ajuda em Hogwarts para entender e controlar essa magia, iniciando um novo capítulo em sua vida como bruxo.
+     </div> 
+     <div class= "passo" id="passo-50">
+        <p>
+         Você segue sua vida comum, trabalhando e construindo relações, mas a falta de realização pessoal o acompanha até o fim. Embora nunca tenha explorado seu potencial mágico, sua vida termina de forma pacífica, mas com a constante pergunta sobre "o que poderia ter sido" ecoando em sua mente.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-51">
+        <p>
+         Seguir a figura leva você a um grupo secreto de bruxos que estão se preparando para uma batalha contra uma ameaça iminente. Você se junta a eles, treinando intensamente e desenvolvendo habilidades impressionantes, mas ao mesmo tempo, enfrenta dilemas morais sobre o uso da magia e a linha tênue entre o bem e o mal.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-52">
+        <p>
+         Sua decisão de rejeitar a oferta resulta em um crescente sentimento de medo e isolamento. Enquanto tenta levar uma vida normal, você descobre que a figura está mais perto do que imagina, levando a confrontos que forçam você a aprender a controlar sua magia de maneira inesperada. Em última análise, você se torna um herói relutante que defende Hogwarts de ameaças ocultas.        
+         </p>
+     </div>   
+     <div class= "passo" id="passo-53">
+        <p>
+         Você consegue derrotar a figura ameaçadora, revelando um poder oculto dentro de si. Essa vitória não apenas fortalece sua confiança, mas também chama a atenção de outros bruxos, que se reúnem ao seu redor, reconhecendo você como um líder emergente no combate às forças sombrias.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-54">
+        <p>
+         Embora você consiga reunir aliados, a figura é astuta e manipula a situação, levando a uma traição inesperada dentro do grupo. Isso resulta em um desafio maior do que o esperado, forçando você a desenvolver novas estratégias e a se unir a aliados inesperados para enfrentar a verdadeira ameaça.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-55">
+        <p>
+         Seu treinamento revela segredos sobre suas origens e você se vê em uma missão para recuperar artefatos perdidos de seus pais, enfrentando desafios que testam suas habilidades e caráter.        
+         </p>
+     </div> 
+     <div class= "passo" id="passo-56">
+        <p>
+            A pressão para controlar suas habilidades leva a uma crise mágica, forçando você a confrontar um antigo inimigo que aparece em sua vida.        
+         </p>
+     </div> 
+
+
+
+                
+
+</main>
+<script src="script.js"></script>
+
+</body>
+</html>
